@@ -1,8 +1,13 @@
 const fs = require('fs');
 const http = require('http');
 const url = require('url');
+// const EventEmitter = require('events');
+// console.log(EventEmitter , "EventEmitter")
+// const myEmiiter = new EventEmitter();
+
 const slugify = require('slugify');
 const replaceTemplate = require('./modules/replaceTemplate')
+
 // Blocking , synchronous way
 // const data = fs.readFileSync('./file/text.txt' , 'utf-8');
 // const hello = "Hello Kanhaiya!";
